@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-ivory: #FAF8F5;
+  --color-ivory-light: #FFFDF9;
+  --color-ivory-dark: #F2EDE4;
+  --color-rose-gold: #B76E79;
+  --color-rose-gold-hover: #C9828D;
+  --color-rose-gold-active: #9A535E;
+  --color-rose-gold-light: #F7ECED;
+  --color-gold: #B76E79;
+  --color-gold-hover: #C9828D;
+  --color-gold-active: #9A535E;
+  --color-gold-light: #F7ECED;
+  --color-charcoal: #1D1B19;
+  --color-charcoal-muted: #6D6862;
+}
+
+/* Custom scrollbar and smooth luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9D2C7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B76E79;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes shimmerFacet {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+}
+
+@keyframes letterEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes taglineEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes badgePop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.32);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes badgePulseRing {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-shimmer-facet {
+  animation: shimmerFacet 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-letter-entrance {
+  animation: letterEntrance 0.55s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.animate-tagline-entrance {
+  animation: taglineEntrance 0.65s cubic-bezier(0.16, 1, 0.3, 1) 0.45s backwards;
+}
+
+.animate-badge-pop {
+  animation: badgePop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-badge-ring {
+  animation: badgePulseRing 0.65s cubic-bezier(0, 0, 0.2, 1) forwards;
+}

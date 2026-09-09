@@ -1,0 +1,6 @@
+{
+  "name": "Maison Aurélia — Luxury Jewelry",
+  "description": "An elegant, high-jewelry ecommerce demo featuring fine rings, necklaces, earrings, and bracelets with interactive cart, wishlist, product details, and simulated checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
