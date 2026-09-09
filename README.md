@@ -10,9 +10,12 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Live Deployment](https://img.shields.io/badge/Live_Demo-Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://jwellery-website-demo.sswaggyiirush.workers.dev)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Key Features](#-key-features) • [Design System](#-design-system--palette) • [Architecture](#-architecture--project-structure) • [Getting Started](#-getting-started) • [Code Quality](#-code-quality--standards)
+### 🔗 **[🌐 Experience the Live Boutique Flagship →](https://jwellery-website-demo.sswaggyiirush.workers.dev)**
+
+[Live Demo](https://jwellery-website-demo.sswaggyiirush.workers.dev) • [Key Features](#-key-features) • [Design System](#-design-system--palette) • [Architecture](#-architecture--project-structure) • [Getting Started](#-getting-started) • [Code Quality](#-code-quality--standards)
 
 </div>
 
@@ -125,6 +128,16 @@ jwellery-website-demo/
 
 ---
 
+## 🌐 Live Deployment
+
+The digital boutique is deployed live and globally distributed:
+
+- **Production URL**: [https://jwellery-website-demo.sswaggyiirush.workers.dev](https://jwellery-website-demo.sswaggyiirush.workers.dev)
+- **Platform**: Cloudflare Workers / Edge Runtime
+- **Status**: 🟢 Active & Production Ready
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -135,8 +148,8 @@ jwellery-website-demo/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/jwellery-website-demo.git
-   cd jwellery-website-demo
+   git clone https://github.com/Saksham1105/Jwellery-Website-Demo.git
+   cd Jwellery-Website-Demo
    ```
 
 2. **Install dependencies:**
